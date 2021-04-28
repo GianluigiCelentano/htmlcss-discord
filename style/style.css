@@ -6,7 +6,8 @@
 }
 ul {
     list-style: none;
-    padding-top: 15px;
+    padding-top: 16px;
+    margin-left: 25%;
 }
 .jumbo {
     width: 100%;
@@ -27,11 +28,7 @@ ul {
 }
 .logo {
     float: left;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-ul {
-    margin-left: 25%;
+    padding: 10px 50px;
 }
 li {
     color: white;
@@ -80,4 +77,21 @@ h2 {
 .button-2 {
     background-color: black;
     color: white;
+}
+.item-1 {
+    float: left;
+    padding-top: 250px;
+    padding-left: 220px;
+}
+.item-1-desc {
+    width: 350px;
+    color: black;
+    z-index: 1001;
+    font-size: 30px;
+    padding-top: 260px;
+    font-weight: bold;
+}
+.item-1-desc-small {
+    font-size: 20px;
+    font-weight: normal;
 }
