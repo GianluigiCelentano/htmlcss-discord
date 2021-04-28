@@ -29,17 +29,48 @@ ul {
 li:nth-of-type(1n+2) {
     display: inline-block;
     color: white;
-    font-size: large;
+    font-size: 18px;
     font-weight: bold;
     padding-left: 150px;
 }
+.fr {
+    float: right;
+}
 .accedi {
     display: inline-block;
-    float: right;
     color: black;
+    font-weight: bold;
     background-color: white;
     height: 30px;
     width: 80px;
-    border-radius: 50%;
+    border-radius: 40%;
     text-align: center;
+}
+.insight-jumbo {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+h2 {
+    color: white;
+}
+.button-1, .button-2 {
+    font-size: 26px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 16px;
+}
+.button-2 {
+    background-color: black;
+    color: white;
 }
